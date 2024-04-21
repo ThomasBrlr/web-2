@@ -10,8 +10,17 @@ $space-s: 1rem;
 $space-m: 2rem;
 $space-l: 3rem;
 
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 body {
   font-family: staraExtraBold, sans-serif;
+  margin: 0 auto;
+  padding: $space-m;
 }
 
 h1 {
@@ -44,7 +53,13 @@ h1 {
 
 #contactBlock {
   width: 50%;
-  height: 600px;
+  padding: $space-l;
+  gap: $space-s;
+  @include flex-center
+}
+
+.contactItem {
+  padding: $space-m;
   border: 1px solid $secondary;
   border-radius: $space-s;
 }

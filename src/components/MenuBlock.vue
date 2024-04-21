@@ -1,11 +1,11 @@
 <template>
-    <header class="flex justify-center my-8">
+    <header class="flex justify-center my-4">
         <menu>
-            <ul class="flex justify-center gap-4 w-2/3">
-                <li>
+            <ul class="flex justify-center gap-4 uppercase">
+                <li class="w-28 text-center">
                     <RouterLink to="/">Home</RouterLink>
                 </li>
-                <li>
+                <li  class="w-28 text-center">
                     <RouterLink to="/contact">Contact</RouterLink>
                 </li>
             </ul>
@@ -13,10 +13,7 @@
     </header>
 </template>
 
-<script>
-export default {
-    name: "Menu"
-}
+<script setup>
 </script>
 
 <style scoped>
