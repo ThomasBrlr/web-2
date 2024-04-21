@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "fonts.css";
+
+$primary: #111;
+$secondary: #eee;
+$space-s: 1rem;
+$space-m: 2rem;
+$space-l: 3rem;
+
+body {
+  font-family: staraExtraBold, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: Raleway, sans-serif;
+}
+
+.divider {
+  height: 1px;
+  background-color: $primary;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: $space-s;
+  border: 1px solid $secondary;
+  border-radius: $space-s;
+  height: 160px;
+}
+
+#contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#contactBlock {
+  width: 50%;
+  height: 600px;
+  border: 1px solid $secondary;
+  border-radius: $space-s;
+}

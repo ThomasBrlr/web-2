@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: staraBlack;
+    src: url(src/assets/fonts/stara/Stara-Black.otf);
+}
+@font-face {
+    font-family: staraBlackItalic;
+    src: url(src/assets/fonts/stara/Stara-BlackItalic.otf);
+}
+@font-face {
+    font-family: staraBold;
+    src: url(src/assets/fonts/stara/Stara-Bold.otf);
+}
+@font-face {
+    font-family: staraBoldItalic;
+    src: url(src/assets/fonts/stara/Stara-BoldItalic.otf);
+}
+@font-face {
+    font-family: staraExtraBold;
+    src: url(src/assets/fonts/stara/Stara-ExtraBold.otf);
+}
+@font-face {
+    font-family: staraExtraBoldItalic;
+    src: url(src/assets/fonts/stara/Stara-ExtraBoldItalic.otf);
+}
+@font-face {
+    font-family: staraMedium;
+    src: url(src/assets/fonts/stara/Stara-Medium.otf);
+}
+@font-face {
+    font-family: staraMediumItalic;
+    src: url(src/assets/fonts/stara/Stara-MediumItalic.otf);
+}
+@font-face {
+    font-family: staraSemiBold;
+    src: url(src/assets/fonts/stara/Stara-SemiBold.otf);
+}
+@font-face {
+    font-family: staraSemiBoldItalic;
+    src: url(src/assets/fonts/stara/Stara-SemiBoldItalic.otf);
+}
