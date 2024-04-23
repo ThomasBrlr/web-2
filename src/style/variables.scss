@@ -1,0 +1,11 @@
+$primary: #111;
+$secondary: #eee;
+$space-s: 1rem;
+$space-m: 2rem;
+$space-l: 3rem;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

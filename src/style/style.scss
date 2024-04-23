@@ -3,24 +3,13 @@
 @tailwind utilities;
 
 @import "fonts.css";
-
-$primary: #111;
-$secondary: #eee;
-$space-s: 1rem;
-$space-m: 2rem;
-$space-l: 3rem;
-
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
+@import "blocks";
+@import "variables";
 
 body {
-  font-family: staraExtraBold, sans-serif;
+  font-family: staraMedium, sans-serif;
   margin: 0 auto;
-  padding: $space-m;
+  padding: $space-m 0;
 }
 
 h1 {
@@ -33,33 +22,7 @@ h1 {
   background-color: $primary;
 }
 
-.skillItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: $space-s;
-  border: 1px solid $secondary;
-  border-radius: $space-s;
-  height: 160px;
-}
-
-#contactContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-#contactBlock {
-  width: 50%;
-  padding: $space-l;
-  gap: $space-s;
-  @include flex-center
-}
-
-.contactItem {
-  padding: $space-m;
-  border: 1px solid $secondary;
-  border-radius: $space-s;
+.divider-light {
+  height: 1px;
+  background-color: $secondary;
 }

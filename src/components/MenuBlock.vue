@@ -1,9 +1,9 @@
 <template>
-    <header class="flex justify-center my-4">
+    <header class="flex justify-end px-8">
         <menu>
             <ul class="flex justify-center gap-4 uppercase">
                 <li class="w-28 text-center">
-                    <RouterLink to="/">Home</RouterLink>
+                    <RouterLink to="/">Profile</RouterLink>
                 </li>
                 <li  class="w-28 text-center">
                     <RouterLink to="/contact">Contact</RouterLink>
